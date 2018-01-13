@@ -3,8 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
+
 body{
 	background-color:#f8f8f8;
+  overflow-x: hidden;
+  text-decoration: none;
 }
 
 .page_two{
@@ -101,4 +104,30 @@ nav ul a:hover::after{
   padding:10px;
   text-align:center;
   font-size:25px;
+}
+.event-card{
+  background-color: #262626;
+  box-shadow: 0 13px 18px rgba(94, 94, 94, 0.35);
+  margin:10px;
+  text-align:center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:white;
+  padding:15px;
+}
+.event-container{
+  margin-top:10vh;
+  height:100vh;
+}
+
+.get-in-touch-div{
+  background-color:#252525;
+  color:white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  padding: 2.5px;
+  text-align: center;
+  box-shadow: 0 13px 18px rgba(94, 94, 94, 0.35);
+  margin-bottom:5vh;
+  margin-top:5vh;
+
 }
